@@ -5,8 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
-color: rgb(255, 255, 255);
-text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 .logo {
@@ -83,7 +83,7 @@ h4 {
 #hero{
     height: 100vh;
     height: 630px;
-    width: 1000;
+    
     background-position: center;    
     background-image: url(../proyecto/img/gym.jpg);
     block-size: cover;
@@ -314,39 +314,54 @@ h5 {color: #fbff00; font-size: 30px; text-transform: uppercase; }
         
     }
 
-.logo-contacto {
-    font-size: 30px;
-}
+    .logo-contacto {
+        font-size: 30px;
+    }
+    
+    .somos-apolo {
+        font-size: 20px;
+    }
+    .apolo-parrafo {
+        font-size: 15px;
+    }
+    
+    .empezar-hoy {
+        font-size: 20px;
+    }
+    
+    .img-gimnasio {
+        margin-right: 3px;
+        width: 240px;
+        margin-right: 50%;
+    }
+    
+    .tarjetitas {
+        font-size: smaller;
+        display:grid;
+        width: 400px;
+        height: 500x;
+        padding-left: 100px;
+    }
+    
+    .tarjeta-titulo {
+        font-size: 25px;
+    }
+    
+    .h1 {
+        font-size: 60px;
+          align-content: center;
+    }
 
-.somos-apolo {
-    font-size: 20px;
-}
-.apolo-parrafo {
-    font-size: 15px;
-}
+    .mi-hero {
+        width: 100vh;
+        height: 2px;
+    }
 
-.empezar-hoy {
-    font-size: 20px;
-}
+    .mi-footer {
+        width: 100vh;
+        align-items: center;
+        text-align: center;
+    }
 
-.img-gimnasio {
-    width: 400px;
-    padding-right: 250px;
-}
-
-.tarjetitas {
-    font-size: smaller;
-    display:grid;
-    width: 400px;
-    height: 500x;
-    padding-left: 100px;
-}
-
-.tarjeta-titulo {
-    font-size: 25px;
-}
-
-}
-.tarjetitauno .tarjetitados .tarjetitatres {
-    height: 100px;
+    
 }
