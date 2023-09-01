@@ -13,7 +13,7 @@
     background-color: #03030300;
     font-size: 40px;
     margin-left: 1%; 
-    color: #fbff00;
+    color: #bbff00;
     text-decoration-line: underline;
     font-size: 35px;
     padding-top: 6px;
@@ -34,7 +34,9 @@
 }
 
 .menu :hover {
-    color: #fbff00;
+    color: #bbff00;
+    text-decoration: underline;
+    gap: 20px;
 }
 
 .link {
@@ -51,7 +53,7 @@ body {
 
 
 .h1 {
-    font-size: 5.5em;
+    font-size: 6.7em;
     padding-right: 21%;
     margin-top: 2%;
     background-size: 4434343px;
@@ -62,14 +64,14 @@ h2 {font-size: 2.7em;
 
 }
 h3 {font-size: 2em;
-    color: #fbff00;
+    color: #bbff00;
     text-align: center;
     
 
 }
 
 h4 {
-    color: #fbff00;
+    color: #bbff00;
     text-align: center;
     font-size: 50px;
 }
@@ -80,13 +82,14 @@ h4 {
 
 
 
-#hero{
+.mi-hero{
     height: 100vh;
     height: 630px;
-    
     background-position: center;    
-    background-image: url(../proyecto/img/gym.jpg);
     block-size: cover;
+    background-image: url(../proyecto/img/foto-mi-gym2.jpg);
+    text-align: center;
+    padding-top: 130px;
 
 }
 
@@ -139,7 +142,7 @@ button{
 }
 
 .empezar.hoy {
-    color: #fbff00;
+    color: #bbff00;
 }
 
 .img-gimnasio {
@@ -147,8 +150,8 @@ button{
 }
 
 .somos-apolo {
-    color: #fbff00;
-    font-size: 35px;
+    color: #bbff00;
+    font-size: 46px;
 }
 .parrafo-somos {
     padding: 100px 12px;
@@ -157,17 +160,17 @@ button{
 
 .parrafo-footer {
     text-align: center;
-    padding: 40px;
-    background-color: #383837;
+    padding: 35px;
+    background-color: #292928;
     background-size: 20%;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .gmail {
     font-size: medium;
     text-decoration-style: none;
     font-family: 'Kanit', sans-serif;
-    color: #fbff00;
+    color: #bbff00;
 }
 
 .tarjetitas {
@@ -186,7 +189,7 @@ button{
 }
 
 .tarjeta {
-    background-color: #fdfd00;
+    background-color: #bbff00;
     border-radius: 30px;
     overflow: hidden;
     display: flex;
@@ -199,27 +202,62 @@ button{
 
 }
 
+.tarjetitas {
+    transition: all .3s;
+}
+
 .informacion {
     padding-inline: 11px;
     padding-bottom: 11px;
 
 }
 
+
 .tarjetitauno {
     flex: 1;
+    
+}
+
+.tarjetitauno:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(223, 223, 223, 0.4) 0px 5px, 
+    rgba(190, 190, 190, 0.3) 0px 10px, 
+    rgba(134, 134, 134, 0.2) 0px 15px,
+    rgba(94, 94, 94, 0.1) 0px 20px, 
+    rgba(36, 36, 36, 0.05) 0px 25px;
+     
 }
 
 .tarjetitados {
     flex: 1.5;
 }
 
+.tarjetitados:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(223, 223, 223, 0.4) 0px 5px, 
+    rgba(190, 190, 190, 0.3) 0px 10px, 
+    rgba(134, 134, 134, 0.2) 0px 15px,
+    rgba(94, 94, 94, 0.1) 0px 20px, 
+    rgba(36, 36, 36, 0.05) 0px 25px;
+}
+
 .tarjetitatres { 
     flex: 1; 
 }
 
+.tarjetitatres:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(223, 223, 223, 0.4) 0px 5px, 
+    rgba(190, 190, 190, 0.3) 0px 10px, 
+    rgba(134, 134, 134, 0.2) 0px 15px,
+    rgba(94, 94, 94, 0.1) 0px 20px, 
+    rgba(36, 36, 36, 0.05) 0px 25px;
+ 
+}
+
 .productos {
     text-decoration: none;
-    color: #fbff00;
+    color: #bbff00;
     font-size: 30px;
 }
 
@@ -232,13 +270,13 @@ button{
     grid-template-columns: 2fr 1fr;
 }
 
-h1 {color: #fbff00;}
-h5 {color: #fbff00; font-size: 30px; text-transform: uppercase; }
+h1 {color: #bbff00;}
+h5 {color: #bbff00; font-size: 30px; text-transform: uppercase; }
 
 .logo-contacto {
     text-align: center;
     font-size: 3em;
-    color: #fbff00;
+    color: #bbff00;
 
 }
 
@@ -260,6 +298,8 @@ h5 {color: #fbff00; font-size: 30px; text-transform: uppercase; }
     grid-column: 1 / 3;
 }
 
+/* Contacto */
+
 .contacto-form form button,
 .contacto-form form input ,
 .contacto-form form textarea {
@@ -268,13 +308,13 @@ h5 {color: #fbff00; font-size: 30px; text-transform: uppercase; }
     border: none;
     background: none;
     outline: 0;
-    border-bottom: 1px solid #fbff00;
+    border-bottom: 1px solid #bbff00;
     color: #ffffff;
 
 }
 
 .contacto-form form button {
-    background-color: #fbff00;
+    background-color: #bbff00;
     border: 0;
     text-transform: uppercase;
 }
@@ -307,7 +347,155 @@ h5 {color: #fbff00; font-size: 30px; text-transform: uppercase; }
     padding: .3em;
 }
 
+/* Sobre nosotros */
+
+.izquierda {
+    background: #bbff00;
+    height: 100vh;
+    width: 50%;
+}
+
+.derecha {
+    background: url(../proyecto/img/hombre-levantando-pesas.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+
+#pantalla-dividida {
+    display: flex;
+}
+
+.apolo-texto {
+    font-size: 70px;
+    color: #141414;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 70px;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.parrafo-apolo {
+    color: #141414;
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.apolo-boton {
+    border: 1px solid #141414;
+    padding: 20px;
+    text-decoration: none;
+    color: #141414;
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.link {
+    text-align: center;
+}
+
+/* PRODUCTOS */
+
+.texto-productos {
+    text-align: center;
+}
+
+.producto {
+    background-color: #bbff00;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.nuestros-productos {
+    padding: 60px;
+    display: flex;
+    gap: 45px;
+}
+
+.producto:hover {
+    transform: scaleX(1.1);
+}
+
+.producto-img {
+    max-width: 100%;
+    
+}
+
+.producto-parrafo {
+    font-size: 25px;
+}
+
+/* CLASES */
+
+.titulo-clase {
+    color: #ffffff;
+}
+
+.carousel-slide {
+    max-height: 80%;
+}
+
+.clase {
+    padding: 7rem;
+    padding-top: 65px;
+}
+
+.inner {
+    display: flex;
+    padding: 1rem;
+    box-shadow: 3px 3px 60px black;
+}
+
+.inner-left h5  {
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+.inner-left p {
+    font-size: 1.3rem;
+}
+
+.inner-left p {
+    width: 80%;
+}
+
+.inner-left ,
+.inner-right {
+    flex: 1;
+    min-width: 0;
+}
+
+.inner-right img {
+    max-width: 100%;
+}
+
+.inner:hover {
+    transform: scale(1.1);
+    background-color: #272726;
+}
+
+.footer {
+    padding-top: 50px;
+}
+
+
+
+
+
 @media screen and (max-width: 480px) {
+    
+    .mi-hero {
+        width: 50px;
+    }
+    
     .main-header {
         flex-direction: column;
         align-items: center;
@@ -326,13 +514,14 @@ h5 {color: #fbff00; font-size: 30px; text-transform: uppercase; }
     }
     
     .empezar-hoy {
-        font-size: 20px;
+        font-size: 18px;
     }
     
     .img-gimnasio {
-        margin-right: 3px;
-        width: 240px;
-        margin-right: 50%;
+        width: 250px;
+        padding-right: 20px;
+        align-items: center;
+        justify-content: center;
     }
     
     .tarjetitas {
@@ -342,26 +531,94 @@ h5 {color: #fbff00; font-size: 30px; text-transform: uppercase; }
         height: 500x;
         padding-left: 100px;
     }
+
+    .tarjetitados:hover {
+        transform: scale(1.1);
+    }
+
+    .tarjetitauno:hover {
+        transform: scale(1.1);
+    }
+
+    .tarjetitatres:hover{ 
+        transform: scale(1.1);
+    }
     
     .tarjeta-titulo {
         font-size: 25px;
     }
     
     .h1 {
-        font-size: 60px;
-          align-content: center;
+        font-size: 30px;
+        text-align: justify;
     }
 
     .mi-hero {
         width: 100vh;
-        height: 2px;
+        height: 60vh;
+        background-image: url(../proyecto/img/foto-mi-gym2.jpg);
+        padding-left: 100px;
+        padding-top: 90px;
+    }
+
+    .mi-hero h1 {
+        font-size: 48px;
+    }
+
+    .footer {
+        width: 100vh;
     }
 
     .mi-footer {
-        width: 100vh;
+        padding-top: 20%;
         align-items: center;
         text-align: center;
     }
 
+    .apolo-texto {
+        font-size: 35px;
+    }
+
+    .parrafo-apolo {
+        font-size: 11px;
+
+    }
+
+    .apolo-boton {
+        padding-top: 0;
+        font-size: 10px;
+    }
+
+    .nuestros-productos {
+        display: grid;
+    }
+
+    .clase {
+        margin: 0%;
+    }
+
+
+    .inner-left p {
+        font-size: 10px;
+        padding: auto;
+        margin: auto;
+
+    }
+
+    .inner-left h5 {
+        font-size: 15px;
+    }
     
+    .inner-right img {
+        width: 100vh;
+    }
+
+    .producto:hover {
+        transform: scaleX(1.1);
+    }
+
+    .tarjetitas {
+        gap: 50px;
+    }
+
 }
