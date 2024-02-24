@@ -8,6 +8,9 @@
   text-decoration: none;
 }
 
+#navbarNav {
+  justify-content: end;
+}
 .logo {
   background-color: rgba(3, 3, 3, 0);
   font-size: 40px;
@@ -17,6 +20,12 @@
   font-size: 35px;
   padding-top: 6px;
 }
+.navbar-brand {
+  color: #bbff00;
+  text-decoration-line: underline;
+  font-size: 30px;
+}
+
 
 .main-header {
   display: flex;
@@ -51,6 +60,7 @@ body {
 .h1 {
   font-size: 6.7em;
   padding-right: 21%;
+  color: #bbff00;
   margin-top: 2%;
   background-size: 4434343px;
   animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
@@ -470,6 +480,16 @@ h5 {
   padding-top: 50px;
 }
 
+@media screen and (max-width: 560px) {
+  .tarjetitas {
+    display: grid;
+    max-width: 350px;
+    padding: 1em;
+    margin: 6em;
+  }
+}
+
+
 @media screen and (max-width: 480px) {
   .mi-hero {
     width: 50px;
@@ -580,4 +600,4 @@ h5 {
   .nuestros-contactos {
     padding-left: 9em;
   }
-}/*# sourceMappingURL=estilo.css.map */
+}
