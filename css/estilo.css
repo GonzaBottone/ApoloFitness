@@ -140,30 +140,33 @@ button {
 
 .container-2 {
   max-width: 1000px;
-  margin: 0 auto;
   flex-direction: column;
   gap: 300px;
 }
 
 .div-color {
-  background: #464545;
   text-align: center;
-  border-radius: 30px;
   overflow: hidden;
 }
 
+.section-empeza {
+  background-color: #bbff00;
+}
+
+.boton-click {
+  max-width: 9em;
+}
+
+.empezar-hoy {
+  color: #141414;
+  font-size: 3em;
+}
 .empezar {
   margin: 2px 133px;
 }
 
-.empezar.hoy {
-  color: #bbff00;
-}
-
 .img-gimnasio {
   width: 603px;
-  border-radius: 20px;
-  overflow: hidden;
 }
 
 .somos-apolo {
@@ -172,7 +175,7 @@ button {
 }
 
 .parrafo-somos {
-  padding: 100px 12px;
+  padding: 6em;
 }
 
 .parrafo-footer {
@@ -193,7 +196,7 @@ button {
 .tarjetitas {
   display: flex;
   gap: 30px;
-  padding: 40px 0px 45px;
+  padding: 7em;
 }
 
 .terjeta-titulo {
